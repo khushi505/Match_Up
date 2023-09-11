@@ -76,8 +76,8 @@ function createBoard(){
        card.setAttribute('src','assets/blank_2.jpg')
        card.setAttribute('data-id',i)
        card.addEventListener('click',flipcard)
-       card.style.width = '170px'; 
-        card.style.height = '170px';
+       card.style.width = '165px'; 
+        card.style.height = '165px';
        grid.appendChild(card)
     }
 }
